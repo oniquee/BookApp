@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context=".EditDetailBookActivity">
+
+    <TextView
+        android:id="@+id/tv_edit_data_buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Data Buku"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/tv_edit_judul_buku"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Judul Buku"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_edit_judul_buku"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Judul Buku"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_edit_nama_penulis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Penulis"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_edit_nama_penulis"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Nama Penulis"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_edit_tahun_terbit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tahun Terbit"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_edit_tahun_terbit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Tahun Terbit"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_edit_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kategori"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_edit_kategori"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Kategori Buku"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tv_edit_url_cover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="URL Cover Buku"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/et_edit_url_cover"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan URL Cover Buku"
+        android:maxLength="50"
+        android:maxLines="1"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
